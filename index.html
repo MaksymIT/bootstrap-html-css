@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <title>MAKSYM KYBYSH</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <header>
+        <h1>HOTEL</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#history">Historie</a></li>
+                <li><a href="#pricing">Ceník</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contacts">Kontakty</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <img src="https://www.nerienlouper.paris/wp-content/uploads/2018/05/photo-hotel-paris.jpg" alt="Background Image">
+        <h2>Název hotelu</h2>
+        <form>
+            <label for="name">Jméno</label>
+            <input type="text" class="name" name="name" required>
+
+            <label for="surname">Příjmení</label>
+            <input type="text" class="surname" name="surname" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" class="email" name="email" required>
+
+            <label for="phone">Tel.</label>
+            <input type="tel" class="phone" name="phone" required>
+
+            <label for="guests">Počet osob</label>
+            <input type="number" class="guests" name="guests" required>
+
+            <label for="date">Od-Do</label>
+            <input type="text" class="date" name="date" required>
+
+            <label for="room">Výběr pokoje</label>
+            <select class="room" name="room" required>
+                <option value="jednoluzkovy">Jednolůžkový</option>
+                <option value="dvouluzkovy">Dvoulůžkový</option>
+                <option value="trojluzkovy">Trojlůžkový</option>
+            </select>
+
+            <button type="submit">Rezervuj</button>
+            <button class="virtual-tour" type="button">Virtuální prohlídka</button>
+        </form>
+    </section>
+
+    <section class="history">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati nobis porro fugiat ea ratione accusantium sunt ullam at, itaque tempore commodi, nisi voluptates, consequatur dolor unde. Sint, eveniet velit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati nobis porro fugiat ea ratione accusantium sunt ullam at, itaque tempore commodi, nisi voluptates, consequatur dolor unde. Sint, eveniet velit!</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati nobis porro fugiat ea ratione accusantium sunt ullam at, itaque tempore commodi, nisi voluptates, consequatur dolor unde. Sint, eveniet velit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati nobis porro fugiat ea ratione accusantium sunt ullam at, itaque tempore commodi, nisi voluptates, consequatur dolor unde. Sint, eveniet velit!</p>
+        </div>
+        <img src="https://www.hunguesthotels.hu/images/gallery/big/4909.jpg" alt="Historie obrázek">
+    </section>
+
+    <section class="pricing">
+        <div>
+            <img src="https://www.hunguesthotels.hu/images/gallery/big/4909.jpg" alt="Pokoj 1">
+            <table>
+                <tr>
+                    <th colspan="2">Pokoj 1</th>
+                </tr>
+                <tr>
+                    <td>Cena za noc (1 osoba)</td>
+                    <td>100 Kč</td>
+                </tr>
+                <tr>
+                    <td>Cena za noc (2 osoby)</td>
+                    <td>150 Kč</td>
+                </tr>
+            </table>
+            <button data-toggle="tooltip" title="Tooltip text">Tooltip</button>
+        </div>
+        <div>
+            <img src="https://www.hunguesthotels.hu/images/gallery/big/4909.jpg" alt="Pokoj 2">
+            <table>
+                <tr>
+                    <th colspan="2">Pokoj 2</th>
+                </tr>
+                <tr>
+                    <td>Cena za noc (1 osoba)</td>
+                    <td>120 Kč</td>
+                </tr>
+                <tr>
+                    <td>Cena za noc (2 osoby)</td>
+                    <td>180 Kč</td>
+                </tr>
+            </table>
+            <button data-toggle="tooltip" title="Tooltip text">Tooltip</button>
+        </div>
+        <div>
+            <img src="https://www.hunguesthotels.hu/images/gallery/big/4909.jpg" alt="Pokoj 3">
+            <table>
+                <tr>
+                    <th colspan="2">Pokoj 3</th>
+                </tr>
+                <tr>
+                    <td>Cena za noc (1 osoba)</td>
+                    <td>80 Kč</td>
+                </tr>
+                <tr>
+                    <td>Cena za noc (2 osoby)</td>
+                    <td>130 Kč</td>
+                </tr>
+            </table>
+            <button data-toggle="popover" data-content="Popover content">Popover</button>
+        </div>
+        <div>
+            <img src="https://www.hunguesthotels.hu/images/gallery/big/4909.jpg" alt="Pokoj 4">
+            <table>
+                <tr>
+                    <th colspan="2">Pokoj 4</th>
+                </tr>
+                <tr>
+                    <td>Cena za noc (1 osoba)</td>
+                    <td>90 Kč</td>
+                </tr>
+                <tr>
+                    <td>Cena za noc (2 osoby)</td>
+                    <td>140 Kč</td>
+                </tr>
+            </table>
+            <button data-toggle="popover" data-content="Popover content">Popover</button>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="carousel">
+            <!-- Carousel Images -->
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div>
+            <!-- Google Map -->
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            <p>Adresa</p>
+            <p>Telefonní číslo</p>
+            <p>Mailový kontakt</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Мій готель. Усі права захищено.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Політика конфіденційності</a></li>
+                    <li><a href="#">Умови використання</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initialize tooltips and popovers
+            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-toggle="popover"]').popover();
+
+            // Handle virtual tour button click
+            $('#virtual-tour').click(function () {
+                // Open modal with video
+            });
+        });
+    </script>
+</body>
+
+</html>
